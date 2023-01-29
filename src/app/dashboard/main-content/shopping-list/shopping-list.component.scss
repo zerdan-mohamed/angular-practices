@@ -1,0 +1,16 @@
+.mz-shop-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0.5em;
+  gap: 0.5em;
+}
+
+.mz-shop-box {
+
+}
+
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}

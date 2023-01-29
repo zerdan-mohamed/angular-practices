@@ -1,0 +1,44 @@
+<div
+  class="mz-main-content" id="mz-main-content"
+  [ngClass]="{ 'mz-toggleContent': shareDataService.getSideMenuStatus()}">
+  <app-toolbar></app-toolbar>
+  <main>
+    <div class="mz-cards">
+      <div class="mz-single-card">
+        <div>
+          <span>ERNINGS (MONTHLY)</span>
+          <h2>$40,000</h2>
+        </div>
+        <i class="uil uil-calender"></i>
+      </div>
+      <div class="mz-single-card">
+        <div>
+          <span>ERNINGS (ANNUAL)</span>
+          <h2>$215,000</h2>
+        </div>
+        <i class="uil uil-dollar-sign-alt"></i>
+      </div>
+      <div class="mz-single-card">
+        <div>
+          <span>WEEKLY SALES</span>
+          <h2>$47K</h2>
+        </div>
+        <i class="uil uil-chart-bar"></i>
+      </div>
+      <div class="mz-single-card">
+        <div>
+          <span>PENDING REQUESTS</span>
+          <h2>18</h2>
+        </div>
+        <i class="uil uil-comments"></i>
+      </div>
+    </div>
+    <div class="mz-wrapper mz-flex flex-test">
+      <div class="mz-projects">
+        <h3>Test....</h3>
+        <p>Test.........................................................</p>
+        <button mat-raised-button color="primary">test</button>
+      </div>
+    </div>
+  </main>
+</div>

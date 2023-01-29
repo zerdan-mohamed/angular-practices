@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; // why box-sizing !!!
+  list-style: none;
+  text-decoration: none;
+}
+
+.mz-sidebar {
+  width: 270px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 20px 0 20px 12px; /* l r t b*/
+  background-color: var(--main-color);
+  z-index: 100;
+  overflow: hidden;
+  transition: all .5s;
+}
+
+.mz-logo {
+  width: 100%;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  color: var(--text-white);
+}
+
+.mz-logo h2 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.mz-sidebar-menu ul li {
+  width: 100%;
+  font-size: 16px;
+  color: var(--text-white);
+  margin: 8px 0;
+  padding: 8px 17px;
+  border-radius: 30px 0 0 30px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.mz-sidebar-menu ul li i {
+  font-size: 22px;
+}
+
+.mz-sidebar-menu ul li:is(:hover,:first-child) {
+  background-color: var(--text-white);
+  color: var(--main-color);
+}
+
+/* BEGIN MEDIA STYLE */
+@media only screen and (max-width: 697px) {
+  .mz-sidebar {
+    width: 65px;
+  }
+  .mz-sidebar:is(:hover,:active) {
+    width: 270px;
+  }
+}
+/* END MEDIA STYLE */
+
+.mz-toggleMenu {
+  width: 65px;
+}

@@ -1,0 +1,14 @@
+:root
+{
+  --main-color: #006eff;
+  --text-grey: #8390a2;
+  --text-white: #fff;
+  --shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  // box-sizing: border-box;
+  font-family: 'Poppins' ,Roboto, "Helvetica Neue", sans-serif;
+}
